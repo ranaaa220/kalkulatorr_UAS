@@ -73,7 +73,8 @@ public class Calculator {
         window.setLocationRelativeTo(null); // Move window to center
 
         comboTheme = initCombo(new String[]{"Simple", "Colored", "DarkTheme"}, 230, 30, "Theme", themeSwitchEventConsumer);
-
+        System.out.println(" no ");
+        
         comboCalcType = initCombo(new String[]{"Standard", "Scientific"}, 20, 30, "Calculator type", calcTypeSwitchEventConsumer);
 
         int[] x = {MARGIN_X, MARGIN_X + 90, 200, 290, 380};
