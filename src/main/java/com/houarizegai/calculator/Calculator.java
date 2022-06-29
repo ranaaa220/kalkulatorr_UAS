@@ -74,7 +74,7 @@ public class Calculator {
 
         comboTheme = initCombo(new String[]{"Simple", "Colored", "DarkTheme"}, 230, 30, "Theme", themeSwitchEventConsumer);
         System.out.println(" no ");
-        
+
         comboCalcType = initCombo(new String[]{"Standard", "Scientific"}, 20, 30, "Calculator type", calcTypeSwitchEventConsumer);
 
         int[] x = {MARGIN_X, MARGIN_X + 90, 200, 290, 380};
@@ -86,6 +86,7 @@ public class Calculator {
         inText.setBackground(Color.WHITE);
         inText.setFont(new Font("Comic Sans MS", Font.PLAIN, 33));
         window.add(inText);
+        System.out.println(" no ");
 
         btnC = initBtn("C", x[0], y[1], event -> {
             repaintFont();
